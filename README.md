@@ -1,3 +1,11 @@
+# Домашнее задание к занятию 14 «Средство визуализации Grafana» - `Фомичев Анатолий`
+
+## Ссылка на Д3 - https://github.com/netology-code/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/README.md
+
+## Ссылка на репозиторий - https://github.com/SLzDevOps/Netology-Monitoring-3
+
+### Скриншоты - https://github.com/SLzDevOps/Netology-Monitoring-3/tree/main/screenshots
+
 # Домашнее задание "ELK Stack"
 
 ## Выполненные задачи
