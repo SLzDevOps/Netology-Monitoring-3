@@ -1,0 +1,24 @@
+# Docker
+*.log
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# Elasticsearch data
+es-hot-data/
+es-warm-data/
+*/data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.temp

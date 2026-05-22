@@ -1,0 +1,39 @@
+# Домашнее задание "ELK Stack"
+
+## Выполненные задачи
+
+### 1. Запущен ELK стек в Docker:
+- Elasticsearch (hot и warm ноды)
+- Logstash (прием JSON по TCP)
+- Kibana
+- Filebeat (сбор логов Docker)
+
+### 2. Конфигурация компонентов:
+- Logstash настроен на прием JSON сообщений по TCP порту 5000
+- Filebeat настроен на отправку логов Docker контейнеров в Logstash
+
+### 3. Результаты работы:
+- Все 5 контейнеров успешно запущены и работают
+- Данные собираются и индексируются в Elasticsearch
+- Kibana отображает логи через созданный index pattern
+
+## Файлы в репозитории:
+- `docker-compose.yml` - манифест Docker Compose
+- `logstash.conf` - конфигурация Logstash
+- `filebeat.yml` - конфигурация Filebeat
+- `screenshots/` - скриншоты выполнения задания
+
+## Проверка работы:
+
+### Просмотр логов в Kibana:
+1. Открыть http://localhost:5601
+2. Перейти в Discover
+3. Выбрать data view `docker-logs-*`
+
+### Отправка тестового JSON:
+```bash
+echo '{"app":"test","message":"Hello ELK"}' | nc -N localhost 5000
+
+
+
+
