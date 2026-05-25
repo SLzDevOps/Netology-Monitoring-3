@@ -41,12 +41,14 @@
 ### Отправка тестового JSON:
 ```bash
 echo '{"app":"test","message":"Hello ELK"}' | nc -N localhost 5000
-
+```
 
 ![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_875.png).
 ![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_876.png).
 ![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_877.png).
 ![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_878.png).
 ![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_879.png).
-
+![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_880.png).
+![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_881.png).
+![alt text](https://github.com/SLzDevOps/Netology-Monitoring-3/blob/main/screenshots/Screenshot_882.png).
 
