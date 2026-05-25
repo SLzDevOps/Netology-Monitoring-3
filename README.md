@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 14 «Средство визуализации Grafana» - `Фомичев Анатолий`
+# Домашнее задание "Система сбора логов Elastic Stack" - `Фомичев Анатолий`
 
 ## Ссылка на Д3 - https://github.com/netology-code/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/README.md
 
